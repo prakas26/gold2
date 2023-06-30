@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .card-body {
+        /* display: flex;
+        flex-direction: row !important;
+        max-width: 619px !important;
+        max-height: 270px !important;
+        gap: 10px; */
+
+        width: 619px;
+        height: 619px;
+        background-color: blue;
+    }
+
+    .profile-image {
+        margin-top: 30%;
+    }
+
+    .card-body-in {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 5px;
+    }
+    .rate-image {
+        max-width: 50px;
+        max-height: 16px;
+    }
+
+    .card-text {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        width: 400px;
+    }
+  }
