@@ -7,7 +7,7 @@
   }
 
   .hero-content-section{
-    padding: 20px 20px 0 20px;
+    padding: 20px 20px 0 20px !important;
   }
 
   .hero-image-section{
@@ -39,7 +39,7 @@
   }
   
   .hero-content-section{
-    padding: 50px 60px 0px 80px;
+    padding: 50px 60px 0px 80px !important;
   }
   
   .hero-content-section h1{

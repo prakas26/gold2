@@ -1,0 +1,65 @@
+@media only screen and (max-width: 600px) {
+    .faq-container {
+        margin: 0px 0px 30px 0px;
+    }
+    .text-container {
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .text-container h5 {
+        margin: 0px 0px 0px 0px;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .text-container p {
+        margin: 10px 10px 10px 10px;
+        font-size: 14px;
+        height: 40px;
+        text-align: center;
+    }
+
+    .accordion-container-inner {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .accordion-container-text p {
+        font-weight: 700 !important;
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .faq-container {
+        width: 1168px;
+        height: 344px;
+        margin: 30px 136px 30px 76px !important;
+    }
+
+    .text-container {
+        width: 500px;
+        height: 344px;
+        font-family: Arial;
+        font-weight: 700;
+    }
+
+    .text-container h5 {
+        width: 500px;
+        margin: 0px 0px 0px 0px;
+        font-size: 24px;
+    }
+
+    .text-container p {
+        width: 348px;
+        height: 40px;
+        margin: 0px 0px 0px 0px;
+        font-size: 14px;
+    }
+
+    .accordion-container {
+        width: 668px;
+        height: 344px;
+    }
+}

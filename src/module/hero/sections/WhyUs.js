@@ -15,22 +15,22 @@ export default function WhyUs() {
                 </Col>
                 <Row className='container-content'>
                     <Col className='why-content' xs="12" xl="3">
-                        <img src={IconComplete} />
+                        <img src={IconComplete} alt='icon_complete' />
                         <h5>Mobil Lengkap</h5>
                         <p>Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan terawat</p>
                     </Col>
                     <Col className='why-content'xs="12" xl="3">
-                        <img src={IconPrice} />
+                        <img src={IconPrice} alt='icon_price' />
                         <h5>Harga Murah</h5>
                         <p>Harga murah dan bersaing, bisa bandingkan harga kami dengan rental mobil lain</p>
                     </Col>
                     <Col className='why-content'xs="12" xl="3">
-                        <img src={IconHrs} />
+                        <img src={IconHrs} alt='icon_hours' />
                         <h5>Layanan 24 Jam</h5>
                         <p>Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga tersedia di akhir minggu</p>
                     </Col>
                     <Col className='why-content' xs="12" xl="3">
-                        <img src={IconProffesional} />
+                        <img src={IconProffesional} alt='icon_proffesional' />
                         <h5>Sopir Profesional</h5>
                         <p>Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu</p>
                     </Col>

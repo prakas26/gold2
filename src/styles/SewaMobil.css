@@ -1,0 +1,76 @@
+@media only screen and (max-width: 600px) {
+  .main-container {
+    display: flex;
+    justify-content: center;
+  }
+  .sewa-container {
+    margin: 64px 27px 64px 27px;
+    width: 328px;
+    height: 420px;
+    background-color: #0D28A6;
+    border-radius: 13px;
+    color: white;
+    gap: 32px;
+  }   
+  .inner-sewa{
+    float: center;
+    height: 420px;
+    font-weight: 700;
+    font-family: Arial;
+    text-align: center !important;
+    gap: 10px;
+  }
+
+  .inner-sewa h1 {
+    margin: 60px 0px 10px 43px;
+    font-size: 24px;
+    line-height: 36px;
+    height: 108px;
+    width: 212px;
+   }
+
+   .inner-sewa p {
+    line-height: 20px;
+    font-size: 14px;
+    width: 212px;
+    height: 100px;
+    margin: 10px 50px 20px 50px;
+   }
+
+  }
+
+  @media only screen and (min-width: 1200px) {
+   .main-container {
+      padding: 50px;
+    }
+   .sewa-container {
+     padding: 20px 136px 20px 136px;
+     width: 1168px;
+     height: 326px;
+     background-color: #0D28A6;
+     border-radius: 13px;
+     color: white;
+   }
+   .inner-sewa{
+     height: 100vh;
+     font-weight: 700;
+     font-family: Arial;
+     text-align: center !important;
+     gap: 10px;
+   }
+
+   .inner-sewa h1 {
+    margin: 60px 0px 50px 0px;
+    font-size: 36px;
+    line-height: 20px;
+   }
+
+   .inner-sewa p {
+    line-height: 20px;
+    font-size: 14px;
+    width: 468px;
+    height: 40px;
+    margin: 20px 278px 50px 198px;
+   }
+
+  }

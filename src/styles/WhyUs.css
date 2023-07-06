@@ -1,17 +1,25 @@
 
 @media only screen and (max-width: 600px) {
     .container-why {
-        margin: 10px 30px 40px 20px;
+        margin: 10px 30px 40px 20px !important;
         display: grid;
     }
     .why-content {
+        display: flex;
+        flex-direction: column;
         max-width: 328px;
         max-height: 176px;
         justify-content: center;
-        gap: 5px;
+        gap: 10px;
         border-style: groove;
         border-width: 1px;
         border-radius: 8px;
+        font-weight: 700;
+    }
+
+    .why-content img {
+        width: 32px;
+        height: 32px;
     }
     .why-text {
         text-align: center;
@@ -38,7 +46,7 @@
 
 @media only screen and (min-width: 1200px) {
     .container-why {
-        margin: 10px 0px 40px 15px;
+        margin: 10px 0px 40px 15px !important;
         max-width: 1168px;
         display: grid;
     }

@@ -12,8 +12,9 @@
     }
     
     .image-girl{
-      width: 98vw;
-      float: right;
+      width: 252px;
+      height: 228px;
+      float: center;
     }
     .girl-col h1 {
         font-weight: 700;
@@ -29,7 +30,7 @@
 
   @media only screen and (min-width: 1200px) {
     .girl-container {
-        padding: 30px 30px 10px 30px;
+        padding: 30px 30px 10px 30px !important;
         justify-content: center;
         
     }

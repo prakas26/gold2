@@ -1,38 +1,134 @@
+
 @media only screen and (max-width: 600px) {
 
-  }
-
-  @media only screen and (min-width: 1200px) {
-    .card-body {
-        /* display: flex;
-        flex-direction: row !important;
-        max-width: 619px !important;
-        max-height: 270px !important;
-        gap: 10px; */
-
-        width: 619px;
-        height: 619px;
-        background-color: blue;
+    .section-testimoni {
+        padding: 5px;
     }
-
-    .profile-image {
-        margin-top: 30%;
-    }
-
-    .card-body-in {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 5px;
-    }
-    .rate-image {
-        max-width: 50px;
-        max-height: 16px;
-    }
-
-    .card-text {
+    .section-testimoni h1 {
+        font-size: 24px;
         font-weight: 700;
-        font-size: 14px;
-        line-height: 20px;
-        width: 400px;
+        text-align: center;
     }
-  }
+
+    .section-testimoni p {
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .carousel-card{
+        display: flex;
+        margin: 20px 10px 20px 0px;
+    }
+    .card{
+        margin: 10px 16px 10px 16px !important;
+        padding: 0%;
+        width: 328x !important;
+        height: 392px !important;
+    }
+    .carousels-card-item{
+        text-align: center;
+        background-color: #F1F3FF;
+        margin: 10px 10px 10px 10px;
+        width: 328x !important;
+        height: 392px !important;
+    }
+
+
+    .img-rate {
+        width: 80px;
+        height: 16px;
+        margin: 0% 20% 5% 32% !important;
+    }
+    
+    .carousel-img {
+        max-width: 80px !important;
+        align-self: center;
+        margin: 0% 20% 0% 30% !important;
+    }
+
+    .carousel-text {
+        font-weight: 700;
+    }
+
+    .carousel-text h5 {
+        width: 254px;
+        text-align: left;
+        font-size: 14px;
+        height: 140px;
+        margin: 1% 1% 1% 5% ;
+        font-family: Arial;
+        line-height: 20px;
+        font-weight: 700;
+    }
+
+    .carousel-text p {
+        text-align: left;
+        margin: 2% 1% 1% 4% ;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+    .section-testimoni {
+        padding: 20px;
+    }
+    .section-testimoni h1 {
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .section-testimoni p {
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .carousel-card{
+        display: flex;
+    }
+    .card{
+        margin-left: 25% !important;
+        border: 0px;
+        width: 619px !important;
+        height: 270px !important;
+    }
+    .carousels-card-item{
+        text-align: center;
+        background-color: #F1F3FF;
+        margin: 0 10px 0 10px;
+        width: 619px;
+        height: 270px;
+        gap: 10px;
+        border-radius: 8px;
+
+    }
+
+    .carousel-img {
+        width: 150px !important;
+        align-self: center;
+    }
+
+    .carousel-text {
+        margin: 30px 10px 20px 10px !important;
+        width: 415px !important;
+        height: 170px;
+    }
+
+    .carousel-text h5 {
+        text-align: left;
+    }
+
+    .carousel-text p {
+        text-align: left;
+    }
+
+    .img-rate {
+        width: 80px;
+        height: 16px;
+    }
+
+}
