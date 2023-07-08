@@ -22,7 +22,7 @@ const Carousel = () => {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            <Container className='card'>
+            <Container className='card-test'>
               <Row className='carousels-card-item' xs='1' xl="2"> 
                 <Col className='carousel-img'>
                   <img src={TestImage} alt='gambar profil'/>

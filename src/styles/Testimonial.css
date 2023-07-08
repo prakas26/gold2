@@ -19,7 +19,7 @@
         display: flex;
         margin: 20px 10px 20px 0px;
     }
-    .card{
+    .card-test{
         margin: 10px 16px 10px 16px !important;
         padding: 0%;
         width: 328x !important;
@@ -90,7 +90,7 @@
     .carousel-card{
         display: flex;
     }
-    .card{
+    .card-test{
         margin-left: 25% !important;
         border: 0px;
         width: 619px !important;
