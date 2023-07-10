@@ -1,16 +1,16 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import TestImage from '../../../../assets/img/img_photo.svg'
 import TestImage1 from '../../../../assets/img/Rate.png'
 import TestImage2 from '../../../../assets/img/img_photo1.svg'
 import TestImage3 from '../../../../assets/img/img_photo2.svg'
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import {  Col, Container, Row } from "reactstrap";
+import {  Col, Container, Row, Button } from "reactstrap";
 
 const Carousel = () => {
-    // const [activeIndex, setActiveIndex] = useState(0);
-
+  const swiperRef = useRef();
     return (
+    <div>
       <div 
         className='carousel-card'
       >
@@ -18,8 +18,10 @@ const Carousel = () => {
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={50}
           slidesPerView={1}
+          loop={true}
+          speed= {500}
           onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => console.log(swiper)}
+          onSwiper={(swiper) => {swiperRef.current=swiper;}}
         >
           <SwiperSlide>
             <Container className='card-test'>
@@ -42,7 +44,7 @@ const Carousel = () => {
             </Container>
           </SwiperSlide>
           <SwiperSlide>
-          <Container className='card'>
+          <Container className='card-test'>
               <Row className='carousels-card-item'xs='1' > 
                 <Col className='carousel-img'>
                   <img src={TestImage2} alt='gambar profil'/>
@@ -62,7 +64,7 @@ const Carousel = () => {
             </Container>
           </SwiperSlide>
           <SwiperSlide>
-          <Container className='card'>
+          <Container className='card-test'>
               <Row className='carousels-card-item'xs='1' > 
                 <Col className='carousel-img'>
                   <img src={TestImage3} alt='gambar profil'/>
@@ -83,6 +85,11 @@ const Carousel = () => {
           </SwiperSlide>
         </Swiper>
       </div>
+      <div className='button-outer' >
+        <Button onClick={() => swiperRef.current.slidePrev()} className='button-test' outline color="success"><p>{'<'}</p></Button>
+        <Button onClick={() => swiperRef.current.slideNext()} className='button-test' outline color="success"><p>{'>'}</p></Button>
+      </div>
+    </div> 
     );
 };
 

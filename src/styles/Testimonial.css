@@ -67,6 +67,22 @@
         font-size: 14px;
         font-weight: 400;
     }
+    .button-outer {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin: 10px !important;
+    }
+    .button-test {
+        border-radius: 50% !important;
+        width: 15px !important;
+        height: 20px !important;
+    }
+
+    .button-test p {
+        font-size: 10px;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -129,6 +145,17 @@
     .img-rate {
         width: 80px;
         height: 16px;
+    }
+    .button-outer {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin: 10px !important;
+    }
+    .button-test {
+        border-radius: 50% !important;
+        width: 32px;
+        height: 32px;
     }
 
 }

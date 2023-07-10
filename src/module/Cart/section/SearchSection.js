@@ -48,18 +48,18 @@ export default function SearchSection(){
     }
   }
 
-  // const mappingCategory = dataDetail.map(category);
-  //   switch(category){
-  //     case 'small' :
-  //       return '2-4orang'
-  //     case 'small' :
-  //       return '4-6 orang'
-  //     case 'large' :
-  //       return '6-8 orang'
-  //     default:
-  //       return ''
-  //   }
-  // }
+  const mappingCategory = (category) => {
+    switch(category){
+      case 'small' :
+        return '2-4orang'
+      case 'medium ' :
+        return '4-6 orang'
+      case 'large' :
+        return '6-8 orang'
+      default:
+        return category;
+    }
+  }
 
   const formatToIDR = (idr) => {
     const parsed = idr.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.');
@@ -347,7 +347,7 @@ export default function SearchSection(){
                 <img src={dataDetail.image} alt="gambar-mobil" className="gambar-mobil"/>
                 <CardBody>
                   <h5>{dataDetail.name}</h5>
-                  <p>{dataDetail.category}</p>
+                  <p>{mappingCategory(dataDetail.category)}</p>
                     <div style={{
                       textAlign:"right"
                     }}>

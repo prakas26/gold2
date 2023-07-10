@@ -1,11 +1,15 @@
-import React from 'react';
+import { React, useRef } from 'react';
+import {  Container, Button } from "reactstrap";
 
-export default function CarouselItem ({ item }){
+
+const Buttoncomp = () => {
+  const swiperRef = useRef();
   return (
-    <section className='section-carousel'>
-      <img className='carousel-img' src={item.icon}/>
-      <p className='carousel-item-text'>{item.description}</p>
-    </section>
-  )
-}
+    <Container>
+      <Button onClick={() => swiperRef.current.slidePrev()}>prev</Button>
+      <Button onClick={() => swiperRef.current.slideNext()}>next</Button>
+    </Container>
+  );
+};
 
+export default Buttoncomp
